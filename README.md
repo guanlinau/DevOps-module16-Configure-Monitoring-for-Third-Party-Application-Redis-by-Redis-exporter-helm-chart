@@ -24,6 +24,9 @@ b-Configure Alertmanager with Email Receiver
 
 a-Deploy Redis exporter using Helm Chart
 
+6-Configure Alert Rules (when Redis is down or has too many connections)
+7-Import Grafana Dashboard for Redis to visualize monitoring data in Grafana
+
 ### Instruction
 
 ###### Step 1: Create eksctl in default region
