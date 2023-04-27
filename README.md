@@ -25,6 +25,7 @@ b-Configure Alertmanager with Email Receiver
 a-Deploy Redis exporter using Helm Chart
 
 6-Configure Alert Rules (when Redis is down or has too many connections)
+
 7-Import Grafana Dashboard for Redis to visualize monitoring data in Grafana
 
 ### Instruction
@@ -228,3 +229,14 @@ helm install redis-exporter prometheus-community/prometheus-redis-exporter -f re
 ![images](images/Screenshot%202023-04-26%20at%208.34.19%20pm.png)
 ![images](images/Screenshot%202023-04-26%20at%208.20.55%20pm.png)
 ![images](images/Screenshot%202023-04-26%20at%208.23.46%20pm.png)
+
+###### Step 11: Configure alert rule for redis
+
+#Using rule template
+![images](images/Screenshot%202023-04-27%20at%209.29.47%20am.png)
+
+###### Step 12: Import Grafana dashboard for redis for visualizing monitoring redis data
+
+#Using grafara template
+#Import the template in grafara dashboard
+![images](images/Screenshot%202023-04-27%20at%209.49.04%20am.png)
